@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="styles/index.css">
+    <link rel="stylesheet" href="styles/index_header.css">
+    <link rel="stylesheet" href="styles/index_body.css">
     <title>Online Store App</title>
   </head>
   <body>
@@ -11,7 +12,7 @@
     <header class="header-container">
         <div class="title-logo">
             <a href="/" className="header-title">
-                <img src="./Images/title.png" width="300px"></img>
+                <img src="./Images/title.png" alt="shop logo" width="300px"></img>
             </a>
         </div>
         <div class="menu-container">
@@ -24,23 +25,64 @@
                 <button class="search-icon"><i class="fa fa-search"></i></button>
                 
             </div>
-            <div class="fav-container">
-                <button class="fav-icon" ><i class="fa fa-heart"></i></button>
+            <div class="logo-container">
+                <a href="/" class="fav-icon" ><i class="fa fa-heart"></i></a>
                 <h4>Your favorites</h4>
             </div>
-             <div class="shopping-container">
-                <button class="shopping-icon" ><i class="fa fa-shopping-cart"></i></button>
+             <div class="logo-container">
+                <a href="/" class="shopping-icon" ><i class="fa fa-shopping-cart"></i></a>
                 <h4>Shopping cart</h4>
             </div>
-            <div class="login-container">
-                <button class="login-icon" ><i class="fa fa-user"></i></button>
+            <div class="logo-container">
+                <a href="/"  class="login-icon" ><i class="fa fa-user"></i></a>
                 <h4>Log-in</h4>
             </div>
             
         </div>
     </header>
 
-    <!--Body-->
+    <!--New Collection-->
+    <div class="new-collection-container">
+
+
+        <img src="Images/new-collection-1.jpg" alt="new collection" height="800px" width="1409px"> </img>
+        <div class="new-collection-caption">
+            <h1 class="new-collection-title" data-animation="fadeInRight" data-delay=".6s">Summer <br> Collection</h1>
+            <p class="new-collection-subtitle" data-animation="fadeInRight" data-delay=".8s">New Clothes Collection By 2020 Summer!!</p>
+            <div class="new-collection-btn" data-animation="fadeInRight" data-delay="1s">
+                <a href="/" class="btn hero-btn">Check now!</a>
+            </div>
+        </div>
+    
+            <!--<div class="single-slider slider-height" data-background="Images/new-collection-3.jpg">
+                <div class="container">
+                    <div class="row d-flex align-items-center justify-content-between">
+                        <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6 d-none d-md-block">
+                            <div class="hero__img" data-animation="bounceIn" data-delay=".4s">
+                                <img src="assets/img/hero/hero_man.png" alt="">
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-5 col-md-5 col-sm-8">
+                            <div class="hero__caption">
+                                <span data-animation="fadeInRight" data-delay=".4s">60% Discount</span>
+                                <h1 data-animation="fadeInRight" data-delay=".6s">Winter <br> Collection</h1>
+                                <p data-animation="fadeInRight" data-delay=".8s">Best Cloth Collection By 2020!</p>
+                                <div class="hero__btn" data-animation="fadeInRight" data-delay="1s">
+                                    <a href="/" class="btn hero-btn">Shop Now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>-->
+
+       
+
+
+        
+
+
+
+    </div>
 
   </body>
 </html>

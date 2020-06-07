@@ -38,6 +38,7 @@ body {
 }
 
 .menu-container {
+  margin-left: 5px;
   .menu-icon{
     background-color: transparent;
     border: none;
@@ -67,14 +68,14 @@ body {
   }
 }
 
-.shopping-container {
+.logo-container {
   display: flex;
+  a {
+    margin-top: 10px;
+    margin-right: 5px;
+  }
 }
 
-.fav-container {
-  display: flex;
-}
-
-.login-container {
-  display: flex;
+.new-collection-container {
+  
 }
