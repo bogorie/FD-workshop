@@ -1,0 +1,35 @@
+.product-container {
+    color: #1f2022;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.product-description-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+        height: 600px;
+        width: 530px;
+    }
+}
+
+.buy-product-btn {
+    a:link, a:visited {
+        background-color: lightblue;
+        color: white;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 50px;
+    }
+    a:hover, a:active {
+    background-color: rgb(134, 200, 223);
+    }
+}
+
+.product-details {
+    display: block;
+    margin-left: 15%;
+    margin-right: 15%;
+}
