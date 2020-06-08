@@ -7,12 +7,13 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-left: 20%;
 }
 
 .product-description-container img {
@@ -34,9 +35,13 @@
   background-color: #86c8df;
 }
 
+.product-ratting {
+  margin-left: 50px;
+}
+
 .product-details {
   display: block;
-  margin-left: 15%;
-  margin-right: 15%;
+  margin-top: 20px;
+  margin-right: 40%;
 }
 /*# sourceMappingURL=Product.css.map */
