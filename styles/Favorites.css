@@ -1,4 +1,4 @@
-.favorites-container {
+.favorites-image-container {
   margin: 0 0 0 0;
   position: relative;
   text-align: center;
@@ -7,17 +7,17 @@
   background-size: cover;
 }
 
-.favorites-container img {
+.favorites-image-container img {
   opacity: 0.6;
 }
 
-.favorites-container h1 {
+.favorites-image-container h1 {
   position: absolute;
   color: #1f2022;
   font-family: 'Times New Roman', Times, serif;
   font-size: 70px;
   top: 50px;
-  left: 350px;
+  left: 400px;
   text-transform: capitalize;
 }
 /*# sourceMappingURL=Favorites.css.map */
